@@ -4,9 +4,14 @@ All my solutions for comb contests in MISIS
 
 ## Run
 
-As they are mostly written in C++, you can build and run with
+If task is written in C++, you can build and run with
 
 ``` bash
 g++ ./main.cpp -o exec
 ./exec
+```
+
+For Rust use
+```bash
+cargo run
 ```
