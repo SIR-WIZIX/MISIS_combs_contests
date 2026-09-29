@@ -4,7 +4,7 @@ fn main() {
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("");
 
-    let mut n: i32 = input.trim().parse().expect("");
+    let n: i32 = input.trim().parse().expect("");
 
     for i in 1..n + 1 {
         input = String::new();

@@ -1,10 +1,10 @@
-use std::{collections::HashMap, io, iter::Map, ptr::null};
+use std::{collections::HashMap, io};
 
 fn main() {
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("");
 
-    let mut n: i32 = input.trim().parse().expect("");
+    let _n: i32 = input.trim().parse().expect("");
 
     input = String::new();
     io::stdin().read_line(&mut input).expect("");
